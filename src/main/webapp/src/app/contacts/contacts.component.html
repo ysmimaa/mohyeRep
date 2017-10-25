@@ -1,0 +1,24 @@
+<div class="container spacer">
+  <div class="panel panel-primary">
+    <div class="panel panel-heading"> List de Contacts:</div>
+    <div class="panel panel-body">
+      <table class="table table-striped">
+        <tr>
+          <th>ID</th>
+          <th>Nom</th>
+          <th>Prénom</th>
+          <th>Email</th>
+        </tr>
+        <tr *ngFor="let c of contacts">
+          <td>{{c.id}}</td>
+          <td>{{c.nom}}</td>
+          <td>{{c.prenom}}</td>
+          <td>{{c.email}}</td>
+
+        </tr>
+      </table>
+    </div>
+  </div>
+
+
+</div>
